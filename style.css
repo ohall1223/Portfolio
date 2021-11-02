@@ -3,10 +3,15 @@ body {
   color: lightpink;
 }
 
+header {
+  font-size: 30px;
+}
+
 ul {
   display: flex;
   list-style: none;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: right;
 }
 
 li {
@@ -15,7 +20,62 @@ li {
   text-decoration: underline;
 }
 
-img {
-  display: flex;
-  align-items: center;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#about_me {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#work {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.card {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.card header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.card a {
+  width: 100%;
+  /* The client insists that images be at least 400px */
+  min-width: 100px;
+  flex-wrap: wrap;
+}
+
+#contact_me {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#resume {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
 }
