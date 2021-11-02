@@ -1,0 +1,21 @@
+body {
+  background-color: navy;
+  color: lightpink;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row-reverse;
+}
+
+li {
+  padding: 20px;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+img {
+  display: flex;
+  align-items: center;
+}
