@@ -17,7 +17,7 @@
         <li><a href="#resume">Resume</a></li>
       </ul>
     </nav>
-    <main>
+    <main class="d-flex flex-page">
       <img
         src="./assets/Olivia's Profile Photo.jpeg"
         alt="Olivia"
@@ -30,11 +30,41 @@
         ducimus repellendus minus maxime explicabo dolor deleniti nostrum
         debitis quibusdam, consectetur maiores.
       </p>
-      <h1 id="work">Work:</h1>
-      <a class="center" href="https://l-buchholz.github.io/project-1/">
-        <img alt="uProjekt" src="./assets/uProjekt.png" class="card center" />
-        <h3 id="cardLabel">uProjekt</h3>
-      </a>
+      <section class="flex-center">
+        <h1 id="work">Work:</h1>
+        <div
+          class="
+            row row-cols-1 row-cols-md-2 row-cols-lg-3
+            mb-3
+            text-center
+            justify-content-center
+          "
+        >
+          <div class="col">
+            <div class="card mb-4">
+              <a
+                class="card-body center"
+                href="https://l-buchholz.github.io/project-1/"
+              >
+                <img
+                  alt="uProjekt"
+                  src="./assets/uProjekt.png"
+                  class="workCards center mb-4 rounded-3"
+                />
+                <h3 id="cardLabel">uProjekt</h3>
+              </a>
+              <a class="card-body center" href="https://github.com/ohall1223">
+                <img
+                  alt="Olivia's Github"
+                  src="./assets/10000-Days1.jpeg"
+                  class="workCards center"
+                />
+                <h3 id="cardLabel">Olivia's Github</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       <h1 id="contact_me">Contact Me:</h1>
       <ul>
         <li><a href="tel:+13037175736">303.717.5736</a></li>
