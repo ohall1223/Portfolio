@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: rgba(144, 238, 144, 0.692);
+  background-color: #c6d8af;
+  color: #685369;
 }
 
 header {
@@ -44,10 +44,18 @@ li {
 }
 
 .card {
+  display: block;
   width: 50%;
   min-width: 100px;
   flex-wrap: wrap;
-  border: rgba(144, 238, 144, 0.692) solid 5px;
+  border: #685369 solid 5px;
+  justify-content: center;
+}
+
+#cardLabel {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
 }
 
 #contact_me {
